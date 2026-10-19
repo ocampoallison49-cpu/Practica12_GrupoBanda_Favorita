@@ -1,43 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banda ms</title>
+    <title>Banda MS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>TWICE</h1>
 
-    <img src="IMAGENES/BSMS.png" alt="Banda ms" width="500px" height="500px">
-    <img src="IMAGENES/ELMS.png" alt="Banda ms" width="500px" height="500px">
-    <img src="IMAGENES/QBMS.png" alt="Banda ms" width="500px" height="500px">
+    <header>
+        <h1>Banda MS</h1>
+        <p>Una de las bandas más reconocidas del regional mexicano</p>
+    </header>
 
-    <video width="300PX" height="300PX" controls>
-        <source src="VIDEOS/Bandams.mp4" type="video/mp4">
+    <nav>
+        <a href="#historia">Historia</a>
+        <a href="#curiosidades">Curiosidades</a>
+        <a href="#multimedia">Multimedia</a>
+    </nav>
+
+    <article id="historia">
+
+        <p>
+            Banda MS de Sergio Lizárraga, conocida artísticamente
+            como Banda MS, es una agrupación de música regional
+            mexicana originaria de Mazatlán, Sinaloa, México.
+            Fue fundada en 2003 y se ha consolidado como una de
+            las bandas más representativas del género. Entre sus
+            canciones más conocidas están El color de tus ojos,
+            Mi razón de ser y Háblame de ti.
+        </p>
+
+        <p>
+            Su propuesta musical combina la tradición de la banda
+            sinaloense con elementos contemporáneos de la música
+            popular mexicana. Banda MS ha realizado giras por
+            México, Estados Unidos y otros países, consiguiendo
+            reconocimiento internacional y una gran cantidad de
+            seguidores gracias a sus canciones y presentaciones.
+        </p>
+
+        <h2>Imágenes de Banda MS</h2>
+
+        <div class="imagenes">
+            <img src="IMAGENES/BSMS.png" alt="Banda MS" width="300px" height="300px">
+            <img src="IMAGENES/ELMS.png" alt="Banda MS" width="300px" height="300px">
+            <img src="IMAGENES/QBMS.png" alt="Banda MS" width="300px" height="300px">
+        </div>
+    </article>
+
+    <section id="curiosidades">
+        <h2>Datos curiosos</h2>
+
+        <ol>
+            <li>MS significa Mazatlán, Sinaloa.</li>
+            <li>La agrupación se formó en 2003.</li>
+            <li>Entre sus vocalistas reconocidos están Alan Ramírez y Walo Silvas.</li>
+            <li>Ha realizado presentaciones internacionales.</li>
+            <li>Colaboró con Snoop Dogg en la canción Qué Maldición.</li>
+        </ol>
+    </section>
+
+    <section id="multimedia">
+
+        <video width="300px" height="300px" controls>
+            <source src="VIDEOS/Bandams.mp4" type="video/mp4">
+            Tu navegador no puede reproducir este video.
+        </video>
+
+        <br><br>
+
         <audio controls>
             <source src="Audio/cancion.mp4" type="audio/mp4">
+            Tu navegador no puede reproducir este audio.
+        </audio>
 
-            <p>
-                Banda MS de Sergio Lizárraga, conocida artísticamente como Banda MS, es una agrupación de música regional mexicana originaria de Mazatlán, Sinaloa, México.<br
-                Fue fundada en 2003 por Sergio Lizárraga y se ha consolidado como una de las bandas más representativas y exitosas del género banda en el siglo XXI.<br>
-                A lo largo de su trayectoria, la agrupación ha posicionado múltiples sencillos en las listas de popularidad de México y Estados Unidos, destacando temas <br
-                como “El color de tus ojos”, “Mi razón de ser”, “Háblame de ti”, “Me vas a extrañar”, “Hermosa experiencia” y “Mi mayor anhelo”. <br
-            </p>
-    
-            <p>
-                Su propuesta musical combina la tradición de la música de banda sinaloense con elementos contemporáneos de la música popular mexicana.<br
-                Banda MS ha realizado giras internacionales por México, Estados Unidos, Centroamérica y Sudamérica, además de presentarse en muchos de los recintos más importantes.
-                Ha obtenido múltiples certificaciones de oro, platino y diamante por ventas y reproducciones, así como reconocimientos otorgados por diferentes instituciones de la industria musical.<br
-            </p>
-            
-            <ol>
-                <li>origen:MS=mazatlan,sinaloa.se creo en 2003</li>
-                <li>independientes:no tienen disquera grande, todo es de su propio sello lizos music</li>
-                <li>vocalistas fijos:alan ramirez y walo silvas </li>
-                <li>exito mundial:fueron la primera banda en tocar en coachella</li>
-                <li>colaboracion historica:hicieron "que maldicion" con snoop dogg mezclando rap y banda</li>
-            </ol>
-            <a href="https://www.google.com/url?opi=89978449&q=https://www.youtube.com/channel/UCV6ZlWpVitOcQvaL_RFgu5w&sa=U&ved=2ahUKEwjMhIbCrsaXAxUbLUQIHXXJIn0QFnoECFkQAQ&usg=AOvVaw1J7fDhe-qr4xz3pp-tc56v"></a>
+        <p>
+            <a href="https://www.youtube.com/@BandaMSOficial"
+               target="_blank" rel="noopener noreferrer">
+            Pagina oficial de Banda MS en YouTube
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>Práctica 12 - Nuestra banda favorita</p>
+        <p>Proyecto escolar de HTML y CSS</p>
+    </footer>
 
 </body>
 </html>
